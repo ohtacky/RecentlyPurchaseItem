@@ -1,0 +1,8 @@
+name: 最近購入された商品
+code: RecentlyPurchaseItem
+version: 0.0.1
+event: Event
+service:
+    - RecentlyPurchaseItemServiceProvider
+orm.path:
+    - /Resource/doctrine
